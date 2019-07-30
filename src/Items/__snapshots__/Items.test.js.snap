@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items Component renders Items with data 1`] = `
+<li
+  className="feature__item"
+  key="1"
+>
+  <div
+    className="feature__option "
+    onClick={[Function]}
+  >
+    Toyota Corolla 1.5v
+    (
+    $1,150.98
+    )
+  </div>
+</li>
+`;

@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
-import App from './App';
+import Features from './Features';
 
 
-describe(`App Component`, () => {
+describe(`Features Component`, () => {
   const FEATURES = {
     Processor: [
       {
@@ -49,13 +49,36 @@ describe(`App Component`, () => {
     ]
   };
 
-  it('renders when empty', () => {
-    const wrapper = shallow(<App />)
+  const selected = {
+    Processor: {
+        name: '17th Generation Intel Core HB (7 Core with donut spare)',
+        cost: 700
+      },
+    "Operating System": {
+        name: 'Ubuntu Linux 16.04',
+        cost: 200
+      },
+    "Video Card":{
+        name: 'Toyota Corolla 1.5v',
+        cost: 1150.98
+      },
+    Display: {
+        name: '15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs',
+        cost: 1500
+      }
+  };
+
+  it('renders Features when empty', () => {
+    const wrapper = shallow(<Features />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 
-  it('renders with data', () => {
-    const wrapper = shallow(<App features={FEATURES} />)
+  it('renders Features with data', () => {
+    const wrapper = 
+        shallow(<Features 
+                    features={FEATURES} 
+                    selected={selected}
+                />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 })

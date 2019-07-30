@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options Component renders Options with data 1`] = `
+Array [
+  <div
+    className="feature"
+    key="Processor"
+  >
+    <div
+      className="feature__name"
+    >
+      Processor
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Items
+        featureClass="feature__option feature__selected"
+        featureName="Processor"
+        index={0}
+        item={
+          Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          }
+        }
+        key="0"
+      />
+      <Items
+        featureClass="feature__option "
+        featureName="Processor"
+        index={1}
+        item={
+          Object {
+            "cost": 1200,
+            "name": "Professor X AMD Fire Breather with sidewinder technology",
+          }
+        }
+        key="1"
+      />
+    </ul>
+  </div>,
+  <div
+    className="feature"
+    key="Operating System"
+  >
+    <div
+      className="feature__name"
+    >
+      Operating System
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Items
+        featureClass="feature__option feature__selected"
+        featureName="Operating System"
+        index={0}
+        item={
+          Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          }
+        }
+        key="0"
+      />
+      <Items
+        featureClass="feature__option "
+        featureName="Operating System"
+        index={1}
+        item={
+          Object {
+            "cost": 300,
+            "name": "Bodhi Linux",
+          }
+        }
+        key="1"
+      />
+    </ul>
+  </div>,
+  <div
+    className="feature"
+    key="Video Card"
+  >
+    <div
+      className="feature__name"
+    >
+      Video Card
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Items
+        featureClass="feature__option feature__selected"
+        featureName="Video Card"
+        index={0}
+        item={
+          Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          }
+        }
+        key="0"
+      />
+      <Items
+        featureClass="feature__option "
+        featureName="Video Card"
+        index={1}
+        item={
+          Object {
+            "cost": 1345,
+            "name": "Mind mild breeze 2000",
+          }
+        }
+        key="1"
+      />
+    </ul>
+  </div>,
+  <div
+    className="feature"
+    key="Display"
+  >
+    <div
+      className="feature__name"
+    >
+      Display
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Items
+        featureClass="feature__option feature__selected"
+        featureName="Display"
+        index={0}
+        item={
+          Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          }
+        }
+        key="0"
+      />
+      <Items
+        featureClass="feature__option "
+        featureName="Display"
+        index={1}
+        item={
+          Object {
+            "cost": 1400,
+            "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+          }
+        }
+        key="1"
+      />
+    </ul>
+  </div>,
+]
+`;
