@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Items from '../Items/Items';
+import './Options.css';
 
 class Options extends Component {
     render() {
